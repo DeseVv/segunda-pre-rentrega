@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <p>
+            <a href="#">Rotisería Caps</a>
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#qs">Quienes Somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#aam">Ayudanos a Mejorar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="futuro-carrucel">
+            <p>Lorem ipsum dolor sit amet </p>
+        </section>
+        <section class="section1">
+            <h2 id="menu">Menu</h2>
+            <div class="plato plato1">
+                <p>milanesa con pure</p>
+                <img src="./multimedia/milanesa-con-pure.jpeg" alt="milanesa-con-pure" class="img">
+            </div>
+            <div class="plato plato2">
+                <p>Pancho Aleman</p>
+                <img src="./multimedia/pancho-aleman.jpg" alt="pancho-alemán">
+            </div>
+            <div class="plato plato3">
+                <p>Hamburguesa con papas fritas</p>
+                <img src="./multimedia/hamburguesa-con-fritas.jpg" alt="Hamburguesa-con-papas-fritas">
+            </div>
+            <div class="plato plato4">
+                <p>Nuggets de pollo</p>
+                <img src="./multimedia/nuggets.jpg" alt="Nuggets-de-pollo">
+            </div>
+            <div class="plato plato5">
+                <p>Pechuga de pollo con pure</p>
+                <img src="./multimedia/pechuga-de-pollo-con-pure.jpg" alt="Pechuga-de-pollo-con-pure">
+            </div>
+            <div class="plato plato6">
+                <p>Bife con papas fritas</p>
+                <img src="./multimedia/bife-con-fritas.jpg" alt="Bife-con-papas-fritas">
+            </div>
+            <div class="plato plato7">
+                <p>Ensalada Cesar</p>
+                <img src="./multimedia/ensalada cesar.jpg" alt="Ensalada-Cesar">
+            </div>
+            <div class="plato plato8">
+                <p>Rabas con papas fritas</p>
+                <img src="./multimedia/rabas-con-fritas.jpg" alt="Rabas-con-papas-fritas">
+            </div>
+        </section>
+        <section class="section2">
+            <h2 id="qs">Quienes Somos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti assumenda rerum molestiae repellendus voluptatibus sint, impedit sed laudantium veniam labore quibusdam ipsum eos corrupti veritatis est accusantium, amet, earum quia.
+            Nobis natus dolorum ab nisi, dolorem corrupti commodi accusantium velit deserunt odit earum aliquam nostrum amet qui corporis vero voluptates, assumenda ullam modi aspernatur dignissimos officia placeat! Earum, minima ad.
+            Architecto sit non itaque sed, explicabo error fugit iusto eum molestias qui hic autem dignissimos cumque unde accusantium at tempora assumenda, minus similique doloribus voluptatum officia. Pariatur consequuntur neque ducimus.
+            Odit perspiciatis totam quae velit aperiam ullam voluptatem numquam facere aliquid modi, nesciunt officia fugit ex accusantium deleniti explicabo doloribus commodi praesentium ducimus architecto aspernatur quis! Unde molestias quia sapiente!</p>
+        </section>
+        <section class="section3">
+            <h2 id="contacto">Contacto</h2>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                    <label for="">Nombre y Apellido</label>
+                    <input type="text" required><br><br><br> 
+                    <label for="">Correo Electrónico</label>
+                    <input type="email" required><br><br><br>
+                    <textarea cols="50" rows="20" id="mensaje" required>Dejanos tu mensaje</textarea>
+                    <input type="submit">
+                    <input type="reset" value="borrar">
+    
+            </form>
+        </section>
+        <section class="section4">
+            <h2 id="aam">¡Ayúdanos a Mejorar!</h2>
+            <div class="foto-section4"></div>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <label class="subtitulo" for="">¿Cómo fue tu experiencia con nosotros?</label><br><br>
+                <label> Buena </label>
+                <input type="radio" name="experiencia" value="Buena"> <br><br>
+                <label> Regular </label>
+                <input type="radio" name="experiencia" value="Regular" checked><br><br>
+                <label> Mala </label>
+                <input type="radio" name="experiencia" value="Mala"><br><br>
+                <label class="subtitulo" for="">¿Qué fue lo que mas te gusto?</label><br><br>
+                <textarea cols="50" rows="20" id="mensaje" required>¿Qué fue lo que menos te gusto?</textarea><br><br>
+                <label class="subtitulo" for="">¿Qué fue lo que menos te gusto?</label><br><br>
+                <textarea cols="50" rows="20" id="mensaje" required>¿Qué fue lo que menos te gusto?</textarea>
+                <input type="submit">
+                <input type="reset" value="borrar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>¡Seguínos en nuestras redes!</p>
+        <div class="redes">
+            <ul>
+                <li><a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/login?lang=es&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
