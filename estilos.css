@@ -66,6 +66,7 @@ nav ul li a{
     /*border: 2px solid black;*/
 }
 
+
 .section1 h2{
     width: 100vw;
     /*border: 2px solid black;*/
@@ -75,7 +76,7 @@ nav ul li a{
 .section1 h3{
     height: 40px;
     width: 750px;
-    text-align: center;
+    text-align: center; 
 }
 
 .section1 img{
